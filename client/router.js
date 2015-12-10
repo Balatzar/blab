@@ -1,7 +1,11 @@
 Router.route('/', {
-  template: 'index'
+  template: 'login'
 });
 
 Router.route('/blabler', {
   name: 'blabler'
+});
+
+Router.route('/home', {
+  name: 'index'
 });
