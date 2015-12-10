@@ -5,7 +5,8 @@ var blabsSeeds = [
     choices: ["Laurent", "Balthazar", "Ben"],
     answer: "Ben",
     votes: 0,
-    creator: "Alexandra"
+    creator: "Alexandra",
+    rank: 1
   },
   {
     published_at : new Date(),
@@ -13,7 +14,8 @@ var blabsSeeds = [
     choices: ["JS", "Ruby", "PHP"],
     answer: "JS",
     votes: 0,
-    creator: "Balthazar"
+    creator: "Balthazar",
+    rank: 2
   },
   {
     published_at : new Date(),
@@ -21,7 +23,8 @@ var blabsSeeds = [
     choices: ["Coca", "Cherry Coca", "Breizh Cola"],
     answer: "Breizh Cola",
     votes: 0,
-    creator: "Laurent"
+    creator: "Laurent",
+    rank: 3
   },
 ];
 

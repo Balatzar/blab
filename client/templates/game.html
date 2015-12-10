@@ -1,0 +1,10 @@
+<template name="game">
+  {{ #with blab }}
+    <h3>{{ title }}</h3>
+      <ul>
+      {{ #each choices}}
+        <li>{{ this }}</li>
+      {{ /each }}
+      </ul>
+  {{ /with }}
+</template>
