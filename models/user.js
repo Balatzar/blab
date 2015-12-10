@@ -1,0 +1,1 @@
+Blabeur = new Mongo.Collection("blabeurs");
