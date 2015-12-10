@@ -1,6 +1,6 @@
 var blabsSeeds = [
   {
-    published_at : new Date(),
+    published_at: new Date(),
     title: "Qui est le plus joli",
     choices: ["Laurent", "Balthazar", "Ben"],
     answer: "Ben",
@@ -10,7 +10,7 @@ var blabsSeeds = [
     participants: []
   },
   {
-    published_at : new Date(),
+    published_at: new Date(),
     title: "C'est quoi le mieux",
     choices: ["JS", "Ruby", "PHP"],
     answer: "JS",
@@ -31,8 +31,8 @@ var blabsSeeds = [
   },
 ];
 
-if(Blab.find().count() === 0) {
-  _.each(blabsSeeds, function(blab){
+if (Blab.find().count() === 0) {
+  _.each(blabsSeeds, function (blab) {
     Blab.insert(blab);
     console.log("Inserted ", blab.title);
   });
