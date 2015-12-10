@@ -3,5 +3,5 @@ Router.route('/', {
 });
 
 Router.route('/blabler', {
-  template: 'blabler'
+  name: 'blabler'
 });
