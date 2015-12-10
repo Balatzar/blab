@@ -1,6 +1,10 @@
 Template.game.helpers({
   blab: function() {
     return Blab.find({rank: 1}).fetch()[0];
+  },
+  oldblab: function() {
+    var len = Blab.find().fetch().length;
+    return Blab.find({rank: len}).fetch()[0];
   }
 });
 
