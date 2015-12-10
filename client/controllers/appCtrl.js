@@ -3,6 +3,11 @@ Template.index.onRendered(function () {
     Router.go('/');
 })
 
+Template.blabler.onRendered(function () {
+  if (!localStorage.getItem("user"))
+    Router.go('/');
+})
+
 Template.app.helpers({
   blabeurs: function () {
     return Blabeur.find({}, {
