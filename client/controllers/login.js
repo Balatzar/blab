@@ -28,7 +28,8 @@ Template.login.events({
     if (ok != false) {
       Blabeur.insert({
         username: event.target.username.value,
-        password: event.target.password.value
+        password: event.target.password.value,
+        points: 0
       })
       localStorage.setItem('user', event.target.username.value);
       Router.go('/home');
