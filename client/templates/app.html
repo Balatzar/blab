@@ -1,13 +1,16 @@
 <template name="app">
-  <h1>GROSSE APP TAVU</h1>
-  <a href="{{pathFor 'blabler'}}">Blaber</a>
-  <ul>
-  {{ #each blabeurs }}
-    <li class="user">{{ username }} {{ points }}</li>
-  {{ /each }}
-  </ul>
+  <div class="middle">
+    <div class="sidebar">
+      <h4><a href="{{pathFor 'blabler'}}">Blaber</a></h4>
+      <ul>
+      {{ #each blabeurs }}
+        <li class="user">{{ username }} {{ points }}</li>
+      {{ /each }}
+      </ul>
+    </div>
 
-  <div class="game">
-    {{ > game }}
+    <div class="game">
+      {{ > game }}
+    </div>
   </div>
 </template>
