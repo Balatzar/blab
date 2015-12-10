@@ -1,4 +1,7 @@
 <template name="game">
+  {{ #with oldblab }}
+    <p>La réponse à la dernière question était {{ answer }}</p>
+   {{ /with }}
   {{ #with blab }}
     <h3>{{ title }}</h3>
       <ul>
