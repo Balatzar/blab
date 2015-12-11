@@ -1,7 +1,7 @@
 var blabsSeeds = [
   {
     published_at: new Date(),
-    title: "Qui est le plus joli",
+    title: "Qui est le plus joli ?",
     choices: ["Laurent", "Balthazar", "Ben"],
     answer: "Ben",
     votes: 0,
@@ -11,24 +11,64 @@ var blabsSeeds = [
   },
   {
     published_at: new Date(),
-    title: "C'est quoi le mieux",
-    choices: ["JS", "Ruby", "PHP"],
-    answer: "JS",
+    title: "Quelle est la capitale du Venezuela ?",
+    choices: ["Tombouctou", "Santiago", "Caracas"],
+    answer: "Caracas",
     votes: 0,
     creator: "Balthazar",
     rank: 2,
     participants: []
   },
   {
+    published_at: new Date(),
+    title: "C'est quoi le mieux ?",
+    choices: ["JS", "Ruby", "PHP"],
+    answer: "JS",
+    votes: 0,
+    creator: "Balthazar",
+    rank: 3,
+    participants: []
+  },
+  {
     published_at : new Date(),
-    title: "Qu'est ce qu'est le plus bon",
+    title: "Qu'est ce qu'est le plus bon ?",
     choices: ["Coca", "Cherry Coca", "Breizh Cola"],
     answer: "Breizh Cola",
     votes: 0,
     creator: "Laurent",
-    rank: 3,
+    rank: 4,
     participants: []
   },
+  {
+    published_at : new Date(),
+    title: "Dans quel pays se trouve le circuit automobile de Zandvoort ?",
+    choices: ["La Belgique", "La Suisse", "Les Pays-Bas"],
+    answer: "Les Pays-Bas",
+    votes: 0,
+    creator: "Laurent",
+    rank: 5,
+    participants: []
+  },
+  {
+    published_at : new Date(),
+    title: "Comment affiche-t-on du texte à l'écran en Python ?",
+    choices: ["console.log", "print", "puts"],
+    answer: "print",
+    votes: 0,
+    creator: "Balthazar",
+    rank: 6,
+    participants: []
+  },
+  {
+    published_at : new Date(),
+    title: "Quelle est la meilleure ville de France ?",
+    choices: ["Paris", "La Loupe", "Rambouillet"],
+    answer: "La Loupe",
+    votes: 0,
+    creator: "Balthazar",
+    rank: 7,
+    participants: []
+  }
 ];
 
 if (Blab.find().count() === 0) {
