@@ -162,7 +162,7 @@ button a {
   text-align: center;
 }
 
-.nope {
+.nope, .balance {
   margin: 0 auto;
   display: block;
   background: #FFF;
