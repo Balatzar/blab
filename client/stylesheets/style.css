@@ -25,12 +25,6 @@ h3 {
   padding-bottom:10px;
 }
 
-h4 {
-  font-weight:bold;
-  font-size:16px;
-  padding-bottom:5px;
-}
-
 nav {
   background-color:#7f4b3e;
   height:5%;
@@ -57,10 +51,24 @@ nav {
     width:10%;
     background-color:#573f34;
     height:100%;
+    position:fixed;
   }
 
+    .sidebar button {
+      font-weight:bold;
+      font-size:16px;
+      background-color:#6a4035;
+      border-radius:2px;
+    }
+
+    .user {
+      padding-top:10px;
+      display:block;
+    }
+
   .game {
-    width:85%;
+    padding-top:50px;
+    width:100%;
     height:100%;
     display:inline-block;
     text-align:center;
@@ -69,6 +77,7 @@ nav {
 
     .answer {
       padding-top:50px;
+      color:#ab6c4c;
     }
 
 footer {
@@ -80,17 +89,16 @@ footer {
   position:absolute;
 }
 
-button {
+li button {
   background-color:#7f4b3e;
-  border:2px solid #1e140f;
-  border-radius:3px;
+  border:3px solid #6a4035;
+  border-radius:2px;
   font-size:16px;
   width:150px;
 }
 
 button:hover{
   background-color:#a27164;
-
 }
 
 a {
