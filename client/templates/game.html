@@ -1,13 +1,13 @@
 <template name="game">
-  {{ #with oldblab }}
-   {{ /with }}
   {{ #with blab }}
     <h3>{{ title }}</h3>
     <ul>
     {{ #each choices}}
       <li><button>{{ this }}</button></li>
     {{ /each }}
-    <div class="answer">La réponse à la dernière question était {{ answer }}</div>
+    {{ #with oldblab }}
+      <div class="answer">La réponse à la dernière question était {{ answer }}</div>
+    {{ /with }}
     </ul>
   {{ /with }}
 </template>

@@ -10,8 +10,6 @@ Meteor.setInterval(function(){
 
   Blab.update({rank: 1}, {$set: {participants: []}});
 
-  console.log(Blab.find({rank: 1}).fetch());
-
   var blabs = Blab.find().fetch();
   var len = blabs.length;
   _.each(blabs, function(blab) {

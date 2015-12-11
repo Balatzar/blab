@@ -28,5 +28,9 @@ Template.blabler.events({
     event.target.reponse2.value = '';
     event.target.reponse3.value = '';
     Router.go('/home');
+  },
+
+  "click .nope": function() {
+    Router.go('/home');
   }
 })
