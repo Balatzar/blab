@@ -1,7 +1,7 @@
 <template name="app">
   <div class="middle">
     <div class="sidebar">
-      <h4><a href="{{pathFor 'blabler'}}">Blaber</a></h4>
+      <h4><button><a href="{{pathFor 'blabler'}}">Blaber</a></button></h4>
       <ul>
       {{ #each blabeurs }}
         <li class="user">{{ username }} {{ points }}</li>
