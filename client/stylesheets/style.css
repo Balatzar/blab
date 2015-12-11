@@ -108,3 +108,12 @@ a {
 li {
   display: inline;
 }
+
+.user {
+  display: block;
+  font-weight: 700;
+}
+
+button a {
+  color: black;
+}
